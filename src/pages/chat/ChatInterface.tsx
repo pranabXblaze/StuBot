@@ -2,10 +2,10 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
-// import { Brain, Send, Settings, LogOut } from 'lucide-react';
 import { useAuth } from '@/contexts/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { PlaceholdersAndVanishInput } from "@/components/ui/placeholders-and-vanish-input";
+import { Send } from 'lucide-react';
 import {v4} from 'uuid'
 
 const API_key = import.meta.env.VITE_API_KEY
@@ -116,6 +116,12 @@ export default function ChatInterface() {
     "Where is Andrew Laeddis Hiding?",
     "Write a Javascript method to reverse a string",
     "How to assemble your own PC?",
+    "Explain Quantum Computing in simple terms",
+    "What is the capital of France?",
+    "How does photosynthesis work?",
+    "What are the benefits of meditation?",
+    "Can you suggest a good book to read?",
+    "What is the meaning of life?",
   ];
 
 
@@ -197,7 +203,7 @@ export default function ChatInterface() {
         onSubmit={() => handleSend()}
               />
             <Button onClick={handleSend}>
-              {/* <Send className="h-4 w-4" /> */}
+              <Send className="h-4 w-4" />
             </Button>
           </div>
         </div>

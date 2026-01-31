@@ -43,6 +43,7 @@ export default function LandingPage() {
                 <div className="flex flex-col mx-8 sm:flex-row gap-2">
                   <Button size="lg" className="bg-blue-500" onClick={() => navigate('/auth')}>
                     {/* Get Started <ArrowRight className="ml-2 h-4 w-4" /> */}
+                    Get Started
                   </Button>
                   <Button size="lg" variant="outline">
                     Learn More
@@ -191,6 +192,7 @@ export default function LandingPage() {
               </p>
               <Button size="lg" className='bg-blue-500' onClick={() => navigate('/auth')}>
                 {/* Get Started Now <ArrowRight className="ml-2 h-4 w-4" /> */}
+                Get Started
               </Button>
             </div>
           </div>
@@ -200,7 +202,7 @@ export default function LandingPage() {
       <footer className="border-t py-6">
         <div className="flex flex-col items-center gap-4 px-4 md:px-6">
           <div className="flex items-center space-x-2">
-            {/* <Brain className="h-5 w-5 md:h-6 md:w-6" /> */}
+            
             <span className="text-lg md:text-xl font-bold">StuBot</span>
           </div>
           <p className="text-center text-xs md:text-sm text-muted-foreground">
