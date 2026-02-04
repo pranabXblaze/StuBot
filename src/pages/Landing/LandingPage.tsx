@@ -1,7 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
-// import { GraduationCap, MessageSquare, Sparkles, Brain, ArrowRight, CheckCircle2 } from 'lucide-react';
-import {FeaturesSectionDemo} from '@/components/features-section-demo-3';
+
 import { TypewriterEffect } from '@/components/typewriter';
 
 export default function LandingPage() {
