@@ -102,12 +102,12 @@ export default function LandingPage() {
         </section>
         
         {/* Features Section */}
-      
+      {/* 
         <section className="py-12 md:py-20">
           <div className="px-4 md:px-6">
             <FeaturesSectionDemo />
           </div>         
-        </section>
+        </section> */}
 
        
 
@@ -127,7 +127,7 @@ export default function LandingPage() {
               <div className="flex flex-col justify-between rounded-lg border bg-card p-4 md:p-6">
                 <div className="space-y-4">
                   <p className="text-sm md:text-base text-muted-foreground">
-                    "StudyAI helped me improve my grades significantly. The instant help and
+                    "StuBot helped me improve my grades significantly. The instant help and
                     detailed explanations are incredible!"
                   </p>
                   <div className="flex items-center space-x-1 text-primary">
